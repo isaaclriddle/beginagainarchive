@@ -1,0 +1,13 @@
+---
+title: "Begin Again: A Digital Trans Archive"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites [visit this link](https://quarto.org/docs/websites).
+
+This is **bold** and this is *italics*.
+
+```{r}
+1 + 1
+```

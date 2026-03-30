@@ -6,3 +6,9 @@
 /.quarto/
 **/*.quarto_ipynb
 /_site/
+.httr-oauth
+.DS_Store
+.quarto
+data-raw/
+*_files/
+*.html

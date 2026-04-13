@@ -1,0 +1,38 @@
+---
+title: "Data Visualization"
+---
+library(tidyverse)
+
+data <- data.frame(
+    group = c("He/Him", "She/Her", "They/Them", "He/They","She/They", "Any", "Neopronouns"),
+    value = c(7, 3, 4, 3, 2, 1, 1)
+)
+
+pride_colors <- c(
+  "Any"         = "#FF8847",
+  "He/Him"      = "#FF6130",
+  "He/They"     = "#FFFF4D",
+  "Neopronouns" = "#34F487",
+  "She/Her"     = "#8F93FF",
+  "She/They"    = "#D17BF9",
+  "They/Them"   = "#FF69B4"
+)
+
+
+
+ggplot(data, aes(x = "", y = value, fill = group)) +
+  geom_bar(stat = "identity", width = 1, color = "white") +
+  coord_polar("y", start = 0) +
+  scale_fill_manual(values = pride_colors) +
+  theme_void() +
+  #labs(title = "Pronouns of Archive Participants") +
+  geom_text(aes(label = paste0(round(value / sum(value) * 100), "%")),
+            position = position_stack(vjust = 0.5))
+
+ggsave(
+  filename = "submitterpronouns.png",
+  width = 5,
+  height = 0.75 * 5
+)            
+            
+            

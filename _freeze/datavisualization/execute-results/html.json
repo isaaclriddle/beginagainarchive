@@ -1,0 +1,17 @@
+{
+  "hash": "970a7a1701dc7787b45888c8258373d2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Data Visualization\"\nexecute:\n  echo: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell caption='Distribution of Submitter Pronouns'}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-2-1.png){fig-alt='This is a pie chart of the distribution of the pronouns\nof those who submitted to the archive.' width=672}\n:::\n:::\n\n\n            \n            ",
+    "supporting": [
+      "datavisualization_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,13 +1,22 @@
 ---
 title: "Data Visualization"
+execute:
+  echo: false
 ---
-library(tidyverse)
 
+```{r}
+#| message: false
+library(tidyverse)
 data <- data.frame(
     group = c("He/Him", "She/Her", "They/Them", "He/They","She/They", "Any", "Neopronouns"),
     value = c(7, 3, 4, 3, 2, 1, 1)
 )
-
+```
+```{r}
+#| caption: "Distribution of Submitter Pronouns"
+#| fig-alt: |
+#|    This is a pie chart of the distribution of the pronouns
+#|    of those who submitted to the archive.
 pride_colors <- c(
   "Any"         = "#FF6130", 
   "He/Him"      = "#FF8847",
@@ -17,8 +26,6 @@ pride_colors <- c(
   "She/They"    = "#D17BF9",
   "They/Them"   = "#FF69B4"
 )
-
-
 
 ggplot(data, aes(x = "", y = value, fill = group)) +
   geom_bar(stat = "identity", width = 1, color = "white") +
@@ -30,13 +37,7 @@ ggplot(data, aes(x = "", y = value, fill = group)) +
   geom_text(aes(label = paste0(round(value / sum(value) * 100), "%")),
             position = position_stack(vjust = 0.5))
 
-ggsave(
-  filename = "submitterpronouns.png",
-  width = 5,
-  height = 0.75 * 5
-)            
+```
 
-![Distribution of Submitter Pronouns](img/submitterpronouns.png){fig-alt="This is a pie chart of the distribution of the pronouns of those who submitted to the archive."
-}       
             
             

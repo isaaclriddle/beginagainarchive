@@ -12,6 +12,7 @@ website:
         text: Home
       - new-page.qmd
       - about.qmd
+      - datavisualization.qmd
 
 format:
   html:

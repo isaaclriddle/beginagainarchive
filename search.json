@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "datavisualization.html",
-    "href": "datavisualization.html",
-    "title": "Data Visualization",
-    "section": "",
-    "text": "library(tidyverse)\ndata &lt;- data.frame( group = c(“He/Him”, “She/Her”, “They/Them”, “He/They”,“She/They”, “Any”, “Neopronouns”), value = c(7, 3, 4, 3, 2, 1, 1) )\npride_colors &lt;- c( “Any” = “#FF6130”, “He/Him” = “#FF8847”, “He/They” = “#FFFF4D”, “Neopronouns” = “#34F487”, “She/Her” = “#8F93FF”, “She/They” = “#D17BF9”, “They/Them” = “#FF69B4” )\nggplot(data, aes(x = ““, y = value, fill = group)) + geom_bar(stat =”identity”, width = 1, color = “white”) + coord_polar(“y”, start = 0) + scale_fill_manual(values = pride_colors) + theme_void() + labs(title = “Pronouns of Archive Participants” , fill = “Pronouns”) + geom_text(aes(label = paste0(round(value / sum(value) * 100), “%”)), position = position_stack(vjust = 0.5))\nggsave( filename = “submitterpronouns.png”, width = 5, height = 0.75 * 5 )\n\n\n\nDistribution of Submitter Pronouns"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

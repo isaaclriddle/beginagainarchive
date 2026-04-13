@@ -104,6 +104,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./datavisualization.html" aria-current="page"> 
+<span class="menu-text">Data Visualization</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -138,16 +142,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>library(tidyverse)</p>
-<p>data &lt;- data.frame( group = c(“He/Him”, “She/Her”, “They/Them”, “He/They”,“She/They”, “Any”, “Neopronouns”), value = c(7, 3, 4, 3, 2, 1, 1) )</p>
-<p>pride_colors &lt;- c( “Any” = “#FF6130”, “He/Him” = “#FF8847”, “He/They” = “#FFFF4D”, “Neopronouns” = “#34F487”, “She/Her” = “#8F93FF”, “She/They” = “#D17BF9”, “They/Them” = “#FF69B4” )</p>
-<p>ggplot(data, aes(x = ““, y = value, fill = group)) + geom_bar(stat =”identity”, width = 1, color = “white”) + coord_polar(“y”, start = 0) + scale_fill_manual(values = pride_colors) + theme_void() + labs(title = “Pronouns of Archive Participants” , fill = “Pronouns”) + geom_text(aes(label = paste0(round(value / sum(value) * 100), “%”)), position = position_stack(vjust = 0.5))</p>
-<p>ggsave( filename = “submitterpronouns.png”, width = 5, height = 0.75 * 5 )</p>
-<div class="quarto-figure quarto-figure-center">
+<div class="cell" data-caption="Distribution of Submitter Pronouns">
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="img/submitterpronouns.png" class="img-fluid figure-img" alt="This is a pie chart of the distribution of the pronouns of those who submitted to the archive."></p>
-<figcaption>Distribution of Submitter Pronouns</figcaption>
+<p><img src="datavisualization_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" alt="This is a pie chart of the distribution of the pronouns of those who submitted to the archive." width="672"></p>
 </figure>
+</div>
+</div>
 </div>
 
 

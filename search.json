@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "datavisualization.html",
+    "href": "datavisualization.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "library(tidyverse)\ndata &lt;- data.frame( group = c(“He/Him”, “She/Her”, “They/Them”, “He/They”,“She/They”, “Any”, “Neopronouns”), value = c(7, 3, 4, 3, 2, 1, 1) )\npride_colors &lt;- c( “Any” = “#FF6130”, “He/Him” = “#FF8847”, “He/They” = “#FFFF4D”, “Neopronouns” = “#34F487”, “She/Her” = “#8F93FF”, “She/They” = “#D17BF9”, “They/Them” = “#FF69B4” )\nggplot(data, aes(x = ““, y = value, fill = group)) + geom_bar(stat =”identity”, width = 1, color = “white”) + coord_polar(“y”, start = 0) + scale_fill_manual(values = pride_colors) + theme_void() + labs(title = “Pronouns of Archive Participants” , fill = “Pronouns”) + geom_text(aes(label = paste0(round(value / sum(value) * 100), “%”)), position = position_stack(vjust = 0.5))\nggsave( filename = “submitterpronouns.png”, width = 5, height = 0.75 * 5 )\n\n\n\nDistribution of Submitter Pronouns"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "new-page.html",
     "href": "new-page.html",
     "title": "About the Archive",
@@ -14,16 +28,9 @@
     "text": "Footnotes\n\n\nK.J Rawson, “The Trans Rhetorical Practice of Archive Building,” in The Routledge Handbook of Queer Rhetoric, ed. Jacqueline Rhodes and Jonathan Alexander (London: Routledge, 2022), 78.↩︎\nBlack Transgender Archive. Accessed 12 March 2025. https://blacktransarchive.com/.↩︎"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Begin Again: A Digital Trans Archive",
+    "title": "You Can Begin Again: A Digital Trans Archive",
     "section": "",
     "text": "The avatars and stories contained in this archive illustrate the variety of ways that trans people can use video game performances to explore and “play” with gender presentation. Through an intermingling of Judith Butler’s idea of performative gender in Gender Trouble, Sarah Ahmend’s Queer Phenomenology, and Uri Miller’s Embodied Avatars, this project understands the act of playing video games with a self-made avatar as a co-creationary performance of the self, in which trans gamers utilize their player characters to begin again.\nYou can submit to the archive in a survey here."
   }

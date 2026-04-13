@@ -19,5 +19,5 @@ format:
       - united
       - brand
     css: styles.css
-    toc: true
+    #toc: true
 

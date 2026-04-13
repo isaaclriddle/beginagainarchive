@@ -16,10 +16,8 @@ website:
 format:
   html:
     theme:
-      - quartz
+      - united
       - brand
     css: styles.css
     toc: true
-
-editor: visual
 

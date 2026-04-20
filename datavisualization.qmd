@@ -38,6 +38,39 @@ ggplot(data, aes(x = "", y = value, fill = group)) +
             position = position_stack(vjust = 0.5))
 
 ```
+```{r}
+install.packages(c("ggalluvial"))
+library(ggalluvial)
+library(ggplot2)
+library(dplyr)
+```
+```{r}
+pronouns <- read_csv("data-raw/submissionimg-original.csv")
+
+counts <- pronouns |>
+  count(submitter_pronoun, avatar_pronouns) |>
+  filter(!is.na(submitter_pronoun), !is.na(avatar_pronouns))
+  
+```
+
+```{r}
+ggplot(data = pronouns,
+       aes(axis1 = submitter_pronoun, 
+           axis2 = avatar_pronouns, 
+           y = n)) +
+geom_alluvium(aes(fill = submitter_pronoun)) +
+geom_stratum() +
+  geom_text(stat = "stratum",
+           aes(label = after_stat(stratum))) +
+scale_x_discrete(limits = c("submitter_pronoun", "avatar_pronouns"),
+                  expand = c(0.1, 0.)) +
+   labs(title = "Personal vs. Avatar Pronouns" ,
+        y= counts, fill = "Pronouns")
+  theme_void()
+
+colnames(pronouns)
+counts
+```
 
             
             

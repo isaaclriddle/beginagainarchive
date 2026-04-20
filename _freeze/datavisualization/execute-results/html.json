@@ -1,8 +1,8 @@
 {
-  "hash": "970a7a1701dc7787b45888c8258373d2",
+  "hash": "c1835e66a4e813c30648cb85bb08e309",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Data Visualization\"\nexecute:\n  echo: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell caption='Distribution of Submitter Pronouns'}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-2-1.png){fig-alt='This is a pie chart of the distribution of the pronouns\nof those who submitted to the archive.' width=672}\n:::\n:::\n\n\n            \n            ",
+    "markdown": "---\ntitle: \"Data Visualization\"\nexecute:\n  echo: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell caption='Distribution of Submitter Pronouns'}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-2-1.png){fig-alt='This is a pie chart of the distribution of the pronouns\nof those who submitted to the archive.' width=672}\n:::\n:::\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n\n```\nRows: 19 Columns: 13\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (12): pid, label, submitter, submitter_pronoun, game, avatar_pronouns, w...\ndbl  (1): order\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n```\n\n\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n\n            \n            ",
     "supporting": [
       "datavisualization_files"
     ],

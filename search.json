@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "datavisualization.html",
+    "href": "datavisualization.html",
+    "title": "Data Visualization",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Rows: 19 Columns: 13\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (12): pid, label, submitter, submitter_pronoun, game, avatar_pronouns, w...\ndbl  (1): order\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Archiving Transgender Worldmaking and Identity Performance in Video Games",
+    "section": "",
+    "text": "Searching for an outlet, many trans people find themselves drawn to video games as a form of escape from the threat of transphobic vitriol and gender-policing in the real world. The avatars that they make then become critical avenues of research for the ways in which they can assist in the exploration of gender identity.Through an intermingling of Judith Butler’s idea of performative gender in Gender Trouble, Sarah Ahmend’s Queer Phenomenology, and Uri Miller’s Embodied Avatars, this project understands the act of playing video games with a self-made avatar as a co-creationary performance of the self, in which trans gamers utilize their player characters to begin again.\nThis website hosts a variety of visualizations for the data attached to the submissions contained within the digital archive You Can Begin Again. These visualizations provide an overview of the demographics and experiences represented within the archive’s collection.\n\nSubmit to the Archive!\nYou can also submit to the archive in a survey here."
   },
   {
     "objectID": "new-page.html",
@@ -21,10 +28,17 @@
     "text": "Footnotes\n\n\nK.J Rawson, “The Trans Rhetorical Practice of Archive Building,” in The Routledge Handbook of Queer Rhetoric, ed. Jacqueline Rhodes and Jonathan Alexander (London: Routledge, 2022), 78.↩︎\nBlack Transgender Archive. Accessed 12 March 2025. https://blacktransarchive.com/.↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "You Can Begin Again: A Digital Trans Archive",
+    "objectID": "tenets.html",
+    "href": "tenets.html",
+    "title": "Tenets",
     "section": "",
-    "text": "The avatars and stories contained in this archive illustrate the variety of ways that trans people can use video game performances to explore and “play” with gender presentation. Through an intermingling of Judith Butler’s idea of performative gender in Gender Trouble, Sarah Ahmend’s Queer Phenomenology, and Uri Miller’s Embodied Avatars, this project understands the act of playing video games with a self-made avatar as a co-creationary performance of the self, in which trans gamers utilize their player characters to begin again.\nYou can submit to the archive in a survey here."
+    "text": "By accessing the data and objects contained within this digital project, I agree to the following:\n\nI understand that this is a pro-trans archive that is representative of the vast and varying experiences of trans-identifying people across cultural, racial, and neurodivergent experiences.\nI acknowledge that the archival ‘objects’ contained within this collection are not true objects, but are representative of deeply-personal and emotionally-entangled experiences of gender and presentation. I commit to protecting and promoting the humanity of not just the stories contained within this archive, but for all trans people in general.\nI will not label or prescribe an identity or an experience on the submissions contained within this archive. I understand that experiences of gender and gender presentation are individualized and that it is not my place to say what someone is or is not.\nIf I use this data, I will acknowledge the above tenets in writing and will provide proper attribution to the archive and/or this repository of data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

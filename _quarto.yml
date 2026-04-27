@@ -10,9 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - tenets.qmd
-      - datavisualization.qmd
-      - data.qmd
+      - href: tenets.qmd
+        text: Tenets
+      - href: datavisualization.qmd
+        href: Data
 
 format:
   html:

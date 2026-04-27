@@ -1,6 +1,7 @@
 ---
 title: "Data Visualization"
 execute:
+  freeze: auto
   echo: false
 ---
 
@@ -49,11 +50,11 @@ counts <- pronouns |>
 ```
 
 ```{r}
-#| message: false
 pronouns <- pronouns |>
   mutate(pronouneq = if_else(submitter_pronoun == avatar_pronouns, 
                              TRUE, FALSE))
 
+#| message: false
 #| caption: "Distribution of Submitter Pronouns Matching or Not Matching their Avatar's Pronouns"
 #| fig-alt: |
 #|    This is a bar graph depicting how often player's pronouns matched the pronouns they gave their avatars.
@@ -62,8 +63,8 @@ ggplot(data = pronouns,
        aes(x = pronouneq, fill = submitter_pronoun)) +
   geom_bar() +
   labs(title = "Player's Pronouns vs. their Avatar's Pronouns",
-       fill = "Pronouns",
-       x = "Pronoun Equivalence", 
+       fill = "Submitter Pronouns",
+       x = "Do Avatar and Submitter Pronouns Match?", 
        y = "Number of Submitters")
 ```
 

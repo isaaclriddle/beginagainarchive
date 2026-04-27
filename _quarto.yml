@@ -5,7 +5,7 @@ execute:
     freeze: auto
 
 website:
-  title: "You Can Begin Again: A Trans Archive on Video Game Avatar Creation"
+  title: "You Can Begin Again"
   navbar:
     left:
       - href: index.qmd
@@ -16,12 +16,14 @@ website:
         
       - href: datavisualization.qmd
         text: Data Visualization
+        
+      - href: metadata.qmd
+        text: Metadata
 
 format:
   html:
     theme:
-      - united
-      - brand
-    css: styles.css
+      - cosmo
+      - style.scss
     #toc: true
 

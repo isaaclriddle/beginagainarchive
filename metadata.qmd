@@ -1,0 +1,25 @@
+---
+title: "Metadata"
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+
+library(tidyverse)
+library(DT)
+library(reactable)
+
+data <- read_csv("data-raw/submissionimg-original.csv")
+```
+```{r}
+reactable(data,
+          defaultPageSize = 15,
+          searchable = TRUE,
+          bordered = TRUE,
+          highlight = TRUE)
+```
+

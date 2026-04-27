@@ -3,6 +3,8 @@ title: "Data Visualization"
 execute:
   freeze: auto
   echo: false
+  message: false
+  warning: false
 ---
 
 ```{r}
@@ -50,6 +52,20 @@ counts <- pronouns |>
 ```
 
 ```{r}
+pride_colors2 <- c(
+  "Any Pronouns"         = "#E6001B", 
+  "He/Him"      = "#FF8847",
+  "He/They"     = "#FFFF4D",
+  "He/They/Kit" = "#34F487",
+  "She/Her"     = "#8F93FF",
+  "She/Her. They/Them. He/Him" = "#D5C7FF", 
+  "She/They"    = "#D17BF9",
+  "They/Them"   = "#FF69B4"
+)
+```
+
+
+```{r}
 pronouns <- pronouns |>
   mutate(pronouneq = if_else(submitter_pronoun == avatar_pronouns, 
                              TRUE, FALSE))
@@ -62,6 +78,7 @@ pronouns <- pronouns |>
 ggplot(data = pronouns,
        aes(x = pronouneq, fill = submitter_pronoun)) +
   geom_bar() +
+  scale_fill_manual(values = pride_colors2) +
   labs(title = "Player's Pronouns vs. their Avatar's Pronouns",
        fill = "Submitter Pronouns",
        x = "Do Avatar and Submitter Pronouns Match?", 

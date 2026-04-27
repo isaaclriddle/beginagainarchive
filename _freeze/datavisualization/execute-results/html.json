@@ -1,8 +1,8 @@
 {
-  "hash": "9c9f2e7bf24dcd9f8d90854ac8bf5109",
+  "hash": "83af106d2750e5cd3340c1efba619471",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Data Visualization\"\nexecute:\n  freeze: auto\n  echo: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell caption='Distribution of Submitter Pronouns'}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-2-1.png){fig-alt='This is a pie chart of the distribution of the pronouns\nof those who submitted to the archive.' width=672}\n:::\n:::\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n\n```\nRows: 19 Columns: 13\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (12): pid, label, submitter, submitter_pronoun, game, avatar_pronouns, w...\ndbl  (1): order\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n```\n\n\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n\n            \n            ",
+    "markdown": "---\ntitle: \"Data Visualization\"\nexecute:\n  freeze: auto\n  echo: false\n  message: false\n  warning: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell caption='Distribution of Submitter Pronouns'}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-2-1.png){fig-alt='This is a pie chart of the distribution of the pronouns\nof those who submitted to the archive.' width=672}\n:::\n:::\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](datavisualization_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n            \n            ",
     "supporting": [
       "datavisualization_files"
     ],

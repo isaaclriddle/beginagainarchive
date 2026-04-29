@@ -13,7 +13,7 @@ library(tidyverse)
 library(DT)
 library(reactable)
 
-data <- read_csv("data-raw/submissionimg-original.csv")
+data <- read_csv("data-raw/submissionimg-table.csv")
 ```
 ```{r}
 reactable(data,

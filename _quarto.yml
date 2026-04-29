@@ -15,7 +15,7 @@ website:
         text: Tenets
         
       - href: datavisualization.qmd
-        text: Data Visualization
+        text: Data Analysis
         
       - href: metadata.qmd
         text: Metadata

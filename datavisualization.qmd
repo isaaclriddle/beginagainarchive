@@ -1,90 +1,15 @@
 ---
-title: "Data Visualization"
+title: "Data Analysis"
 execute:
   freeze: auto
   echo: false
   message: false
   warning: false
 ---
-
-```{r}
-#| message: false
-library(tidyverse)
-data <- data.frame(
-    group = c("He/Him", "She/Her", "They/Them", "He/They","She/They", "Any", "Neopronouns"),
-    value = c(7, 3, 4, 3, 2, 1, 1)
-)
-```
-```{r}
-#| caption: "Distribution of Submitter Pronouns"
-#| fig-alt: |
-#|    This is a pie chart of the distribution of the pronouns
-#|    of those who submitted to the archive.
-pride_colors <- c(
-  "Any"         = "#FF6130", 
-  "He/Him"      = "#FF8847",
-  "He/They"     = "#FFFF4D",
-  "Neopronouns" = "#34F487",
-  "She/Her"     = "#8F93FF",
-  "She/They"    = "#D17BF9",
-  "They/Them"   = "#FF69B4"
-)
-
-ggplot(data, aes(x = "", y = value, fill = group)) +
-  geom_bar(stat = "identity", width = 1, color = "white") +
-  coord_polar("y", start = 0) +
-  scale_fill_manual(values = pride_colors) +
-  theme_void() +
-  labs(title = "Pronouns of Archive Participants" ,
-        fill = "Pronouns") +
-  geom_text(aes(label = paste0(round(value / sum(value) * 100), "%")),
-            position = position_stack(vjust = 0.5))
-
-```
-```{r}
-pronouns <- read_csv("data-raw/submissionimg-original.csv")
-
-# how many people have each combo
-counts <- pronouns |>
-  count(submitter_pronoun, avatar_pronouns) |>
-  filter(!is.na(submitter_pronoun), !is.na(avatar_pronouns))
-  
-```
-
-```{r}
-pride_colors2 <- c(
-  "Any Pronouns"         = "#E6001B", 
-  "He/Him"      = "#FF8847",
-  "He/They"     = "#FFFF4D",
-  "He/They/Kit" = "#34F487",
-  "She/Her"     = "#8F93FF",
-  "She/Her. They/Them. He/Him" = "#D5C7FF", 
-  "She/They"    = "#D17BF9",
-  "They/Them"   = "#FF69B4"
-)
-```
+![Figure 1. This is a pie chart of the distribution of the pronouns of those who submitted to the archive.](img\subpronounpie.png)
 
 
-```{r}
-pronouns <- pronouns |>
-  mutate(pronouneq = if_else(submitter_pronoun == avatar_pronouns, 
-                             TRUE, FALSE))
-
-#| message: false
-#| caption: "Distribution of Submitter Pronouns Matching or Not Matching their Avatar's Pronouns"
-#| fig-alt: |
-#|    This is a bar graph depicting how often player's pronouns matched the pronouns they gave their avatars.
-
-ggplot(data = pronouns,
-       aes(x = pronouneq, fill = submitter_pronoun)) +
-  geom_bar() +
-  scale_fill_manual(values = pride_colors2) +
-  labs(title = "Player's Pronouns vs. their Avatar's Pronouns",
-       fill = "Submitter Pronouns",
-       x = "Do Avatar and Submitter Pronouns Match?", 
-       y = "Number of Submitters")
-```
+![Figure 2. This is a pie chart depicting the different pronouns that submitters used for their self-made video game avatars](img\avatarpronouns.png)
 
 
-            
-            
+![Figure 3. This is a pie chart depicting the different pronouns that submitters used for themselves and whether or not they matched](img\pronoundistrib.png)

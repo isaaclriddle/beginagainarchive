@@ -12,6 +12,6 @@ execute:
 
 ![Figure 2. This is a pie chart depicting the different pronouns that submitters used for their self-made video game avatars](img\avatarpronouns.png)
 
-![Figure 3. This is a pie chart depicting the different pronouns that submitters used for themselves and whether or not they matched](img\pronoundistrib.png){fig-alt="This is a pie chart depicting the different pronouns that submitters used for themselves and whether or not they matched}
+![Figure 3. This is a pie chart depicting the different pronouns that submitters used for themselves and whether or not they matched](img\pronoundistrib.png)
 
 ![Figure 4. This is a word cloud of the most frequently-used words in the question "how does this character relate to your gender identity exploration?" The color orange is connected to he/him pronouns, yellow is he/they, pink is they/them, and purple is she/her.](img\wordcloud.png)

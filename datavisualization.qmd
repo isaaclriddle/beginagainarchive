@@ -9,7 +9,6 @@ execute:
 
 ![Figure 1. This is a pie chart of the distribution of the pronouns of those who submitted to the archive.](img/subpronounpie.png)
 
-
 ![Figure 2. This is a pie chart depicting the different pronouns that submitters used for their self-made video game avatars](img/avatarpronouns.png)
 
 ![Figure 3. This is a pie chart depicting the different pronouns that submitters used for themselves and whether or not they matched](img/pronoundistrib.png)

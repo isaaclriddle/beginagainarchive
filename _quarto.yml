@@ -6,6 +6,7 @@ execute:
 
 website:
   title: "You Can Begin Again"
+  page-footer: "Isaac Riddle | Digital History Methods | Spring 2026"
   navbar:
     left:
       - href: index.qmd

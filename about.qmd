@@ -1,9 +1,46 @@
 ---
-title: "About"
+title: "About the Archive"
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
 ---
+## Early Beginnings
 
-About this site
+[*You Can Begin Again*](https://isaaclriddle.github.io/youcanbeginagain/collection/) was born out of the experiences of a little boy who didn't know he was a boy sitting down to play Obsidian Entertainment's *Fallout: New Vegas* for the first time. As what the trans community colloquially calls a ‘baby trans,’ my cobbled-together performances of masculinity were kept sequestered to the world of video games as I created my very first Courier Six: ‘Atlas.’ I was addicted from the first time an in-game character referred to me as male. It wasn’t before long that Atlas shrugged the world off his shoulders and morphed into ‘Cain’ in *Fallout 3* and *Far Cry 5,* then ‘Cato’ for a few campaigns of *Dungeons and Dragons,* and finally ‘Isaac’ when I inevitably returned to the Mojave Wasteland to begin again. In many ways, that makes this work auto-ethnographic; it is a collection of other trans people’s experiences as much as it is directly reflective of my own. 
 
-```{r}
-1 + 1
-```
+## Methods
+
+This website was generated under [minimal computing princples](https://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/) through [Quarto](https://quarto.org/).
+
+Submissions were collected through [a virtual survey]((https://virginiatech.questionpro.com/youcanbeginagaindigitalarchivesubmissions) that was shared in queer-aligned spaces in Blacksburg, Virginia. Participants were also recruited on trans-aligned Discord and Reddit spaces.
+
+When submitting, gamers were asked: 
+
++ To assign themselves a pseudonym
++ To state their preferred pronouns 
++ To provide pronouns for their submitted avatars
++ To say what game their submission came from
+
+They were then asked the following questions:
+
+1. Why did you choose the game that your character is from? 
+2. How do you understand the relationship between the character submitted and your own gender identity and exploration?
+
+## Constructive Limitations
+
+This archive, like the people whose stories it contains, is both a product of and a response to its surroundings. Because it was primarily shared within Virginia Tech spaces, a limitation of the project is that the archive’s submissions over-represent the experiences of college-educated trans adults that are currently living in or have lived in rural Virginia. Consequently, as Virginia Tech is a primarily-white institution, the stories of white trans people are also more represented; future versions of this archive aim to recruit and platform the stories of more black and brown trans people of color.
+
+
+The version of this project that exists now is also a response to limitations related to time, labor, and financial support being externally enforced upon it, which is to say that it must adhere to cissexist methods of constructing knowledge environments in order to come into being. 
+
+In that sense, it also takes inspiration from Dr. K.J Rawson’s [*Digital Transgender Archive*](https://www.digitaltransgenderarchive.net/) in that this project acknowledges the constraints forced upon it and has resolved to prioritize the “increased open access to trans history” in order to “complicate(s) normative histories” of gender-diverse and trans experiences in video game spaces.[^1] Future iterations of this archive aspire to draw elements of the embodied presentation of knowledge present in Danielle Braithwaite Shirley’s [Black Trans Archive](https://blacktransarchive.com/), which forces users to reckon with the humanity of its archival objects through the usage of an avatar creation system. 
+
+*You Can Begin Again,* on the other hand, is much earlier in its transition. It has taken the plunge – changing its name, buying new clothes, acquiring its first prescription – but it is still in the early stages of becoming something new. It is intimately aware of the limitations that it faces and the cis scrutiny it will inevitably encounter. Still, it does its best to stand as proudly as it can, donned in shades of pink, white, and blue. Please forgive the awkward cracks in its voice; it is still trying to find it.
+
+## Acknowledgements
+
+This project, as well as its attached archive, has received tremendous support from faculty members at Virginia Tech such as [Dr. Jesse Sadler](https://www.jessesadler.com/), [Dr. Travis Webster](https://liberalarts.vt.edu/departments-and-schools/department-of-english/faculty/travis-webster.html), [Dr. Justin Greene](https://liberalarts.vt.edu/departments-and-schools/department-of-english/faculty/justin-russell-greene.html), [Dr. Shoshana Milgram Knapp](https://liberalarts.vt.edu/departments-and-schools/department-of-english/faculty/shoshana-knapp.html), and [Dr. Tyechia Thompson](https://experts.vt.edu/6889-tyechia-thompson).
+
+[^1]: K.J Rawson, “The Trans Rhetorical Practice of Archive Building,” in *The Routledge Handbook of Queer Rhetoric*, ed. Jacqueline Rhodes and Jonathan Alexander (London: Routledge, 2022), 78.

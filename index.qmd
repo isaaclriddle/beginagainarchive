@@ -1,11 +1,13 @@
 ---
 title: "Archiving Transgender Worldmaking and Identity Performance in Video Games"
 ---
+![Figure 1. A screenshot from Obsidian Entertainment's 2008 video game, *Fallout: New Vegas*', taken during DLC entitled "Dead Money." The image is of an in-game poster that reads "A chance to begin again!"](img/exhibitbanner.jpg)
 
-Searching for an outlet, many trans people find themselves drawn to video games as a form of escape from the threat of transphobic vitriol and gender-policing in the real world. The avatars that they make then become critical avenues of research for the ways in which they can assist in the exploration of gender identity.Through an intermingling of Judith Butler’s idea of performative gender in *Gender Trouble*, Sarah Ahmend’s *Queer Phenomenology*, and Uri Miller’s *Embodied Avatars*, this project understands the act of playing video games with a self-made avatar as a co-creationary performance of the self, in which trans gamers utilize their player characters to begin again.
+Searching for an outlet, many trans people find themselves drawn to video games as a form of escape from the threat of transphobic vitriol and gender-policing in the real world. The avatars that they make then become critical avenues of research for the ways in which they can assist in the exploration of gender identity. Through an intermingling of Judith Butler’s idea of performative gender in *Gender Trouble*, Sarah Ahmend’s *Queer Phenomenology*, and Uri Miller’s *Embodied Avatars*, this project understands the act of playing video games with a self-made avatar as a co-creationary performance of the self, in which trans gamers utilize their player characters to begin again.
 
-This website hosts a variety of visualizations for the data attached to the submissions contained within the digital archive [*You Can Begin Again*](https://isaaclriddle.github.io/youcanbeginagain/collection/). These visualizations provide an overview of the demographics and experiences represented within the archive's collection.
+[*You Can Begin Again*](https://isaaclriddle.github.io/youcanbeginagain/collection/) is a digital project that has collected images of self-made video game avatars from trans-identifying video game players who identified some sort of connection to their player characters. This website hosts a variety of visualizations for the data attached to the submissions contained within that archive. These visualizations provide an overview of the demographics and experiences represented within the archive's collection.
 
 # Submit to the Archive!
 
 Trans-identifying gamers can submit to the archive in a [survey here](https://virginiatech.questionpro.com/youcanbeginagaindigitalarchivesubmissions). 
+

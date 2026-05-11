@@ -11,10 +11,16 @@ website:
     left:
       - href: index.qmd
         text: Home
+      
+      - href: about.qmd
+        text: About
         
       - href: tenets.qmd
         text: Tenets
         
+      - href: terms.qmd
+        text: Key Terms
+  
       - href: datavisualization.qmd
         text: Data Analysis
         

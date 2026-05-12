@@ -3,7 +3,7 @@ title: "Key Terms"
 ---
 These terms establish a foundation for how  concepts and ideas for transgender, gender-questioning, and gender-diverse individuals are understood. They also define key video game terminology and the concept of performance.
 
-##Gender and Identity
+## Gender and Identity
 
 <span style="color: #d44d7a;">**Gender Identity:**</span> a person’s internal sense of their gender (or lack thereof), which may or may not align with the sex they were coercively assigned at birth.
 
@@ -23,7 +23,7 @@ These terms establish a foundation for how  concepts and ideas for transgender, 
 
 <span style="color: #d44d7a;">**Neopronouns:**</span>  third-person pronouns that exist outside of normatively-used ones like he/him, she/her, and they/them. While there are [historical examples](https://mermaidsuk.org.uk/news/neopronouns-101/) of the usage of neopronouns, in contemporary times they are most often used by nonbinary individuals as a means of expressing their identities in new, and often non-gendered, ways. More popular examples of neopronouns include "ze/hir" and "ey/em."
 
-##Video Games and Performance
+## Video Games and Performance
 
 <span style="color: #d44d7a;">**Role-Playing Games:**</span> games, both digital and physical, that involve a player or a group of players pretending to be characters that they are not in a fictional setting and storyline.
 

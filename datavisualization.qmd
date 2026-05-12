@@ -26,6 +26,7 @@ This coincides with data on whether or not player's self-selected pronouns were 
 Out of all of the avatars to the archive, the most popular games for them to be made in were *Baldur's Gate III*, with 5 submissions, and *Stardew Valley*, with 3 submissions. The rest of the games represented in the archive only have one associated submission (See Fig. 4.).
 
 ![Figure 4. This is a lollipop chart of all of the games that were submitted to the archive. The most popular game was *Baldur's Gate III* with 5 submissions, and the second most popular was *Stardew Valley* at 3 submissions. All other games submitted had only one submission.](img/lollipop.png)
+
 Another thing of note is that the vast majority of these games are either single-player only or allow for solo play. Only three games - *Sea of Thieves*, *Team Fortress 2*, and *Runescape: Dragonwilds* - are solely multiplayer. Most games represented within the archive are also characterized by their narratives, with only the three aforementioned multiplayer games and *Minecraft* not containing some kind of 'story mode' for players to engage with. This reflects the larger trend of narrative-based games incorporating character customization mechanics as a means of encouraging immersion and the player's embodiment into their characters.
 
 # Stories
@@ -33,12 +34,12 @@ Another thing of note is that the vast majority of these games are either single
 The last point of analysis for the submissions contained within *You Can Begin Again* are the responses provided by the archive's participants. When prompted with a question regarding the connection between their virtual avatars and their gender identities, a few common themes emerged (See Fig. 5).
 
 ![Figure 5. This is a word cloud of the most frequently-used words in the question "how does this character relate to your gender identity exploration?" The color orange is connected to he/him pronouns, yellow is he/they, pink is they/them, and purple is she/her.](img/wordcloud.png)
+
 These commonalities, as pictured, are difficult to quantify. There was a repeated usage of terms like 'play,' 'gender,' 'game,' and 'character' for self-explanatory reasons, but attempts to adequately visualize shared experiences present within participant responses were unsuccessful. 
 
 Instead, I would like to shift to a discussion of the similarity in *themes* across the archive's various objects. In many of the submissions, gamers relished  their ability to present however they wished without having their identities called into question. In [Crash's](https://isaaclriddle.github.io/youcanbeginagain/submissionimg/198417095_Crash_avatar/) (any pronouns) responses to the survey, for example, they identified how liberating it felt for his player character, pictured here, to have the freedom to present however she wanted her to look without the legitimacy of her identity being placed under scrutiny (See Fig. 6).
 
 ![Figure 6. This avatar is in a pixelated style, and has red eyes, pale skin, short black hair, and a thick black beard. She is wearing a light brown cowboy hat, a blue button-up, black pants, and dark purple boots.](img/crash.png)
-
 
 [Damascus](https://isaaclriddle.github.io/youcanbeginagain/submissionimg/169141966_Damascus_avatar/) (he/him) too spoke of enjoying this freedom (See Fig. 7). In his remark, he discusses the ability to wear things like "croptops" while still having his pronouns and identity as a male accepted without debate.
 
